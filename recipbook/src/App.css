@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ingredients-list{
+   padding: 0px;
+   list-style-type: auto;
+}
+.ingredients-list li{
+  text-align: start;
+  padding-left: 15px;
+}
+.recipe-heading{
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 38px;
+   margin-bottom: 15px;
+}
+.recipe-img{
+  height: 100%;
+  object-fit: cover;
+}
+.recipe-title{
+  font-size: 18px;
+  color: #000;
+  line-height: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
